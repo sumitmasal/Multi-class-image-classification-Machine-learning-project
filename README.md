@@ -17,7 +17,7 @@ The Image Classification of Five Flower Classes project aims to build a machine 
         - Code for other models.
 - `main.py`
     - This is flask implementation for the project.
-- `resnet.pkl`
+- `final.pkl`
     - This is the model saved as a pickle file.
 
 ## 2.2. Dependencies
