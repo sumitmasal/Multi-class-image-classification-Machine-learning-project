@@ -88,3 +88,38 @@ The results section provides an overview of the performance and outcomes of our 
 
 ![Untitled](Results/Accuracy.png)
 
+# 8. Deployment
+
+## Flask Implementation
+
+To deploy the image classification model, we have implemented a Flask web application. Flask is a lightweight web framework for Python that allows us to create a web server and serve our machine learning model as an API.
+
+Here's a brief overview of the deployment steps:
+
+1. **Flask Web Application (`main.py`):**
+   - The `main.py` file contains the Flask application code. It defines the routes and handles requests.
+   - We use the Flask `render_template` function to render the HTML templates and provide the user interface for interacting with the model.
+
+2. **Model Loading (`final.pkl`):**
+   - The trained model is saved as a pickle file (`final.pkl`).
+   - In the Flask application, we load the model using the `pickle` library at the beginning of the script.
+
+3. **Request Handling:**
+   - When a user submits an image through the web interface, the Flask server receives the request.
+   - We preprocess the image (resize, normalize, etc.) to match the input requirements of the model.
+
+4. **Model Prediction:**
+   - The preprocessed image is passed through the loaded model for prediction.
+   - The model predicts the class probabilities, and the Flask application returns the result to the user.
+
+5. **User Interface (`templates` folder):**
+   - The `templates` folder contains the HTML templates for the web pages.
+   - The user interacts with the deployed model through a simple web interface, where they can upload an image for classification.
+
+## Running the Flask Application Locally
+
+To run the Flask application locally:
+
+```bash
+python main.py
+
