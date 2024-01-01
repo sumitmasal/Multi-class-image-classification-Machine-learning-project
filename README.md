@@ -82,9 +82,9 @@ The image classification model in this project is built using a modified `ResNet
 
 The results section provides an overview of the performance and outcomes of our image classification project, including the model's accuracy, visualizations, and any additional insights gained from the experiment.
 
-![Untitled]("Results/model_results.png")
+![Untitled](Results/model_results.png)
 
-![Untitled]("Results/Loss.png")
+![Untitled](Results/Loss.png)
 
-![Untitled]("Results/Accuracy.png")
+![Untitled](Results/Accuracy.png)
 
