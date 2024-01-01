@@ -33,12 +33,6 @@ Ensure you have the following dependencies installed:
 - OpenCV
 - Jupyter Notebook
 
-Use the following command to install the dependencies.
-
-```bash
-pip install -r requirements.txt
-```
-
 # 3. Dataset Description
 
 - Link for the dataset is given below:
