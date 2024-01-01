@@ -90,8 +90,8 @@ The results section provides an overview of the performance and outcomes of our 
 
 ## Final results are as follows:
 
-The test loss is:  0.5963686108589172
-The best accuracy is:  86.00000143051147
+-The test loss is:  0.5963686108589172
+-The best accuracy is:  86.00000143051147
 
 # 8. Deployment
 
@@ -107,7 +107,7 @@ Here's a brief overview of the deployment steps:
 
 2. **Model Loading (`final.pkl`):**
    - The trained model is saved as a pickle file (`final.pkl`).
-   - In the Flask application, we load the model using the `pickle` library at the beginning of the script.
+   - In the Flask application, we load the model using a library like `joblib` or `pickle` at the beginning of the script.
 
 3. **Request Handling:**
    - When a user submits an image through the web interface, the Flask server receives the request.
@@ -126,5 +126,13 @@ Here's a brief overview of the deployment steps:
 To run the Flask application locally:
 
 ```bash
+# Navigate to the project directory
+cd /path/to/your/project
+
+# Unzip the pickle file if compressed
+unzip final.pkl.zip
+
+# Run the Flask application
 python main.py
+
 
