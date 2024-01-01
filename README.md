@@ -10,10 +10,10 @@ The Image Classification of Five Flower Classes project aims to build a machine 
 
 - `requirements.txt`
     - Project dependencies.
-- `source_code`
-    - `resnet_prg.ipynb`
+- `Code`
+    - `Final_ResNet.ipynb`
         - Code for **ResNet50**.
-    - `Model.ipynb`
+    - `Final_Model.ipynb`
         - Code for other models.
 - `main.py`
     - This is flask implementation for the project.
