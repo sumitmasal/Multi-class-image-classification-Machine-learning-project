@@ -45,9 +45,6 @@ pip install -r requirements.txt
     
     [Flower Classification](https://www.kaggle.com/datasets/sauravagarwal/flower-classification)
     
-- Specific details like number of images per class for train, test, and validation are shown using a Tableau Dashboard. Click the following link to access it.
-    
-    https://public.tableau.com/app/profile/vedant.nimbalkar/viz/Project_16935462142580/ImageClassificationDashboard?publish=yes
     
 - The dataset used is the one that is already partitioned.
 
