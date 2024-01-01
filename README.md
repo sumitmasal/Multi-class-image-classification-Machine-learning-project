@@ -10,7 +10,7 @@ The Image Classification of Five Flower Classes project aims to build a machine 
 
 - `requirements.txt`
     - Project dependencies.
-- `Code`
+- `Codes`
     - `Final_ResNet.ipynb`
         - Code for **ResNet50**.
     - `Final_Model.ipynb`
