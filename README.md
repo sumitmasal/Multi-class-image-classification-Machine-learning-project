@@ -88,6 +88,11 @@ The results section provides an overview of the performance and outcomes of our 
 
 ![Untitled](Results/Accuracy.png)
 
+## Final results are as follows:
+
+The test loss is:  0.5963686108589172
+The best accuracy is:  86.00000143051147
+
 # 8. Deployment
 
 ## Flask Implementation
