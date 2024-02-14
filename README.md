@@ -2,7 +2,7 @@
 
 # 1. Project Overview
 
-The Image Classification of Five Flower Classes project aims to build a machine learning model capable of classifying images of flowers into one of the five predefined classes: **Rose**, **Tulip**, **Sunflower**, **Daisy**, and **Dandelion**. The primary goal is to create a reliable system that can automatically identify and categorize different types of flowers based on input images. The model is designed with a focus on efficiency and lightweight architecture. This project has applications in botany, horticulture, and image recognition tasks.
+The Image Classification of Five Flower Classes project aims to build a deep learning model capable of classifying images of flowers into one of the five predefined classes: **Rose**, **Tulip**, **Sunflower**, **Daisy**, and **Dandelion**. The primary goal is to create a reliable system that can automatically identify and categorize different types of flowers based on input images. The model is designed with a focus on efficiency and lightweight architecture. This project has applications in botany, horticulture, and image recognition tasks.
 
 # 2. Project Structure and Dependencies
 
